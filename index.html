@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+        <p>Search for a city to see its current weather.</p>
+    </header>
+
+    <main>
+        <form id="search-form">
+            <label for="city-input">City name</label>
+            <input
+                type="text"
+                id="city-input"
+                name="city"
+                placeholder="For example: Beirut"
+                required
+            >
+            <button type="submit" id="search-button">Search</button>
+        </form>
+        <p id="status">Enter a city name to get started.</p>
+
+        <section id="weather-result" class="hidden">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="conditions"></p>
+            <p id="weather-icon"></p>
+
+            <div class="weather-details">
+                <p id="humidity"></p>
+                <p id="wind-speed"></p>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
