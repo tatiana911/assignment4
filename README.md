@@ -2,28 +2,6 @@
 
 A responsive weather dashboard built with HTML, CSS, and vanilla JavaScript.
 
-## Features
-
-- Search for a city by clicking Search or pressing Enter.
-- Display current temperature, conditions, and a weather icon.
-- Display humidity and wind speed.
-- Show a loading message and disable Search during requests.
-- Handle empty input, unknown cities, network failures, and HTTP errors.
-- Adapt the layout to mobile and desktop screens.
-
-## How to Run
-
-1. Download and extract the project ZIP, or clone this repository.
-2. Open the assignment4 folder in VS Code.
-3. Install the Live Server extension if it is not already installed.
-4. Right-click index.html and select "Open with Live Server".
-5. Enter a city name and submit the search.
-
-Run the project through Live Server rather than double-clicking index.html,
-because the JavaScript files use ES modules.
-
-An internet connection is required to fetch weather data.
-No npm installation or build step is needed.
 
 ## API and API-Key Setup
 
